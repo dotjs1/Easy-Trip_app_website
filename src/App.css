@@ -1,0 +1,208 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* App Wrapper */
+.App {
+  text-align: center;
+}
+
+/* App Logo Animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header/Footer */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* ======== First Page (Hero) Section ======== */
+
+.heading {
+  font-family: 'Satoshi', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.get_started {
+  background: rgb(207, 143, 207);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.p_getstarted {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.Logos {
+  gap: 15px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.apple_logo,
+.play_logo {
+  padding: 4px;
+  text-align: center;
+  border: 1.5px solid black;
+  border-radius: 50%;
+}
+.arrow-nav {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.arrow-icon:hover {
+  transform: scale(1.2);
+  color: #000;
+}
+
+/* ======== About Us ======== */
+
+.aboutuspage {
+  background: #282c34;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+/* ======== Main Page: Stats Section ======== */
+
+.container_about_app {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.data {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.data h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.data p {
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/* ======== Scrollable Sections ======== */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ======== Review Banner Section ======== */
+
+.review_div {
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: 'Satoshi', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.sideline h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.sideline p {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+/* ======== Reviews Page Cards ======== */
+
+.review_data {
+  border: 1px solid black;
+  display: flex;
+  width: 30%;
+}
+
+/* Optional Scrollbar Styling for Cards */
+.Review_card::-webkit-scrollbar {
+  height: 8px;
+}
+
+.Review_card::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* ======== Why Choose Us Section ======== */
+
+@media (min-width: 777px) {
+  .container_whychoose {
+    display: flex;
+    gap: 1.4rem;
+  }
+}
+/* ======== Blog  ======== */
+.blogs_div {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
