@@ -36,7 +36,7 @@ const Mainpage = () => {
       id: 1,
       Heading1: 'Clear & Simple App Interface',
       why1: 'Buy a tour in just two clicks. It’s possible with our app.',
-      bcg: 'violet',
+      bcg: 'violet'
     },
     {
       id: 2,
