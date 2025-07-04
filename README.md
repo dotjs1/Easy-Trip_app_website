@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Easy-Trip-App-Website# 🧳 Easy Trip – Travel Booking React App
 Welcome to Easy Trip, a modern, mobile-friendly React.js application designed for planning and booking tours with ease. The app features recommended destinations, user reviews, and a clean interface that encourages seamless travel booking through its companion mobile app.
 
@@ -72,3 +73,6 @@ In the project directory, you can run:
 npm start       # Runs the app in development mode
 npm run build   # Builds the app for production
 npm test        # Launches the test runner
+=======
+# Easy-Trip_app_website
+>>>>>>> eda9ac999038c2cddd3a9fd1ab8ec8b0e6f3b6d4
