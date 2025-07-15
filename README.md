@@ -1,7 +1,7 @@
-# 🧳 Easy Trip – Travel Booking React App
+#  Easy Trip – Travel Booking React App
 Welcome to Easy Trip, a modern, mobile-friendly React.js application designed for planning and booking tours with ease. The app features recommended destinations, user reviews, and a clean interface that encourages seamless travel booking through its companion mobile app.
 
-## ✨ Features
+##  Features
 
 - Responsive landing page with:
   - Interactive destination cards (with pricing & hotel info)
@@ -14,7 +14,7 @@ Welcome to Easy Trip, a modern, mobile-friendly React.js application designed fo
 - Built mobile-first with React Bootstrap
 
 
-### Technologies Used
+## Technologies Used
 - React.js
 
 - React Bootstrap
@@ -27,7 +27,7 @@ Welcome to Easy Trip, a modern, mobile-friendly React.js application designed fo
 
 - JSX + Hooks (useState, useRef)
 
-#### 📁 Project Structure
+## Project Structure
 /src
 │
 ├── App.js                // Main app router and layout
@@ -60,11 +60,11 @@ Welcome to Easy Trip, a modern, mobile-friendly React.js application designed fo
 - Progressive Web App (PWA) support
 
 
-###### 📝 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
-##### 🛠 Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
