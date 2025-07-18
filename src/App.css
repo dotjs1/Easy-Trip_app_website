@@ -10,6 +10,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  max-width: '100vw'
+
 }
 
 /* App Wrapper */

@@ -2,9 +2,9 @@
  import { Card } from 'react-bootstrap';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
- const Whychooseuscard = ({Heading,why,bcg}) => {
+ const Whychooseuscard = ({Heading,why,bcg,aos}) => {
    return (
-   <Card className='h-100'style={{ background: bcg }}>
+   <Card className='h-100'style={{ background: bcg }} data-aos={aos}>
     <Card.Title>
       <div style={{display:'flex', alignItems:'flex-start',paddingLeft:'5px' }}>
    <FontAwesomeIcon icon={faSquareCheck} style={{fontSize:'40px',color:'green'}}/>

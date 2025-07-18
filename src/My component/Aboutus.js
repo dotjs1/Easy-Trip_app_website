@@ -1,7 +1,12 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 const Aboutus = () => {
     return (
-        <div class="container-fluid aboutuspage" >
+        <motion.div class="container-fluid aboutuspage"
+           initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+        >
             <h1>🌍 About Easy Trip</h1>
             <p>
                 At Easy Trip, we believe travel should be joyful, seamless, and unforgettable. Founded with a passion for exploration and a love for cultural connection, our mission is simple: to make your dream journeys as easy as they are extraordinary.
@@ -25,7 +30,7 @@ const Aboutus = () => {
             <h3 style={{ fontFamily: 'cursive', fontStyle: 'oblique' }}> We’re not just a travel company—we’re storytellers, adventure-seekers, and matchmakers for curious souls and the places they’ll fall in love with.
                 Let’s make your next trip an Easy Trip.
             </h3>
-        </div>
+        </motion.div>
     )
 }
 

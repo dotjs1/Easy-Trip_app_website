@@ -5,9 +5,9 @@ import { faTag } from '@fortawesome/free-solid-svg-icons';
 function DestinationCard({ image, title, onClick, pricing, hotels }) {
   return (
     <Card className="h-100 shadow-sm" onClick={() => onClick(image)} style={{ cursor: 'pointer' }}>
-      <Card.Img variant="top" src={image} style={{height:'45vh'}}  />
+      <Card.Img variant="top" src={image} style={{height:'45vh'}} data-aos="zoom-in"  />
       <Card.Body>
-        <Row className="align-items-center">
+        <Row className="align-items-center" data-aos="zoom-out">
           <Col md={6} className="px-4">
             <Card.Title className="mb-2">{title}</Card.Title>
             <p className="mb-1 text-muted">{pricing}</p>
